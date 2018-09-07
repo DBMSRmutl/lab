@@ -12,4 +12,5 @@ select village_name, subdistrict_name, district_name, province_name
 from villageThailand
 where subdistrict_name='อำเภอเมือง' and province_name = 'ลำปาง' 
  or province_name = 'บึงกาฬ'
-order by population, subdistrict_name;
+order by population, subdistrict_name
+limit 10;
