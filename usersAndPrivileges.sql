@@ -1,4 +1,4 @@
 use thailand;
-create user 'testUser'@'localhost' identified by '3333';
+create user IF NOT EXISTS 'testUser'@'localhost' identified by '3333';
 
 
